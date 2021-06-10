@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>EOTO</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="part1">
+
+    <!-- navbar -->
+
+    <nav class="topbar navbar navbar-expand-lg navbar-light ">
+      <a href="#"><img class="logo" src="images/logo.jpg" alt="logo"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-end nav-link" href="#part1">Home</a>
+          </li>
+          <li>
+            <a class="nav-end nav-link" href="#part2">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!-- about us -->
+
+    <table class="homepage container-fluid">
+      <tr>
+        <td class=" first-section">
+          <h1 class="eoto"><em>EOTO</em></h1>
+          <div class="allchoice col-lg-10">
+            <div class="choice">
+              <h5>If you are a student and you like to learn click here</h5>
+              <button onclick="window.open(href='student-form.html')" type="button" class="home-button btn btn-dark btn-lg download-button">👨‍🎓 Learn</button>
+            </div>
+            <div class="choice">
+              <h5>If you are a student and you like to teach click here</h5>
+              <button onclick="window.open(href='teacher-form.html')" type="button" class="home-button btn btn-dark btn-lg download-button">👨‍🏫 Teach</button>
+            </div>
+          </div>
+        </td>
+        <td class="col-lg-6 second-section">
+          <p class="about">Each One Teach One is a simple technique for imparting small pieces of understanding to a group—one student at a time. Each student confronts new information, learns it, and then is empowered to teach it to each other
+            student. It allows the
+            student to understand better and provides the learner with rare one-on-one attention and lets students select “lessons/Modules” appropriate to particular student learning styles, energy levels, and personalities. As a teaching method, it
+            can
+            be used with almost any subject. This helps the individual to enhance the understanding of self and the subject, as unofficially proven, it is always that best friend who becomes the best teacher by teaching topics in a way that one can
+            remember in the last minute, EOTO would be taking this concept much farther by building the system for it,with a community that would work for the betterment of the concept and the idea, includes analysis, maintenance, support,
+            improvement,
+            etc.</p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- contact us -->
+
+  <section id="part2">
+    <div class="main-block container-fluid ">
+      <form action="/">
+        <h1>Contact Us</h1>
+        <div class="info">
+          <input class="fname" type="text" name="name" placeholder="Full name">
+          <input type="text" name="name" placeholder="Email">
+          <input type="text" name="name" placeholder="Phone number">
+        </div>
+        <div>
+          <textarea rows="4" placeholder="Message"></textarea>
+        </div>
+        <button class="contact-button" type="submit" href="/">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer-section" id="footer">
+    <div class="last-section container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p class="last">© Copyright 2021 Yashodhar</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
